@@ -1,10 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import {Portifolio} from './Container/Home'
 
+import { Home } from './Container/Home'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Portifolio/>
+    <Home/>
   </StrictMode>
 )
